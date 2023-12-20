@@ -96,6 +96,10 @@ function App() {
 
   return (
     <main>
+      <header>
+        <img src="./game-logo.png" alt=""></img>
+        <h1>Tick Tac Toe</h1>
+      </header>
       <div id="game-container">
         <ol id="players" className="highlight-player">
           <Player
